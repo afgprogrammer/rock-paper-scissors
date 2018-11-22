@@ -1,0 +1,61 @@
+
+body {
+    background: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    font-size: 15;
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.left {
+    margin-right: 150px;
+    color: #999;
+}
+.right {
+    margin-left: 150px;
+    color: #999;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content #result {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.content .last-event {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content .sps {
+    display: flex;
+    justify-content: center;
+}
+
+.content .sps .item {
+    cursor: pointer;
+    margin: 0 20px;
+    border: 3px solid #eee;
+    border-radius: 50%;
+    padding: 10px;
+    width: 52px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 2.3;
+    text-align: center;
+    transition: .5s all;
+}
+
+.content .sps .item:hover {
+    background: rgb(182, 182, 34);
+}
